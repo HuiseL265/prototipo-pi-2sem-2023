@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Oswald:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+/* CSS DO CABEÇALHO DA PAGINA PRINCIPAL */
+.div_cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+.search-menu {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 40vw;
+}
+
+.search-box {
+    align-items: center;
+    background: #F1F1F1;
+    border-radius: 40px;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    line-height: 30px;
+    outline: none;
+    width: 300px;
+    transition: .5s;
+}
+
+.search-btn {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    transition: .5s;
+}
+
+.search-box:hover > .search-btn {
+    background: #099F19;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 30px;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+
+.menu a {
+    text-decoration: none;
+    border-radius: 30px;
+    color: #000000;
+    transition: .5s;
+    padding: 5px 10px 5px 10px;
+}
+
+.menu a:hover {
+    background: #703D12;
+    color: #FFFFFF;
+}
+
+/* CSS DO CONTEÚDO DA PÁGINA PRINCIPAL */
+.section-conteudo-home {
+    display: flex; 
+    flex-grow: 1;
+    margin-top: 30px;
+
+}
+
+.conteudo-home-texto {
+    background: #F1F1F1;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.conteudo-home-texto h1 {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.conteudo-home-texto p {
+    font-family: 'Open Sans';
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.conteudo-home-imagem img {
+    height: 100%;
+}
+
+.btn-saiba-mais {
+    background: #836FFF;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    left: 38%;
+    top:70%;  
+    transition: .5s;
+}
+
+.btn-saiba-mais:hover {
+    background: #0000CD;
+}
+
+
+
+
+
