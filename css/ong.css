@@ -4,23 +4,20 @@
     justify-content: space-around;
 }
 
-.div-empresa {
-    margin-top: 40px;
-    background: #F1F1F1;
-    padding: 20px;
-    border-radius: 20px;
+.feature.col{
+    margin-bottom:40px;
+}
+
+.div-empresa-img {
+    display:flex;
+    justify-content: center;
+    margin-bottom:10px;
 }
 
 .div-empresa-img img{
     width: 200px;
     height: 200px;
     border-radius: 30px;
-}
-
-.div-empresa-img img:hover {
-    transition: 0.4s;
-	transform: scale(1.1);
-    border: solid 1px #f00c0c
 }
 
 .div-empresa-titulo h2 {
@@ -39,15 +36,15 @@
 }
 
 .btn-produto {
-    background: #836FFF;
-    border: none;
-    border-radius: 30px;
-    color: #FFFFFF;
+    margin-top:30px;
+    padding: 10px 40px;
+    border: 1;
+    border-radius: 5px;
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
     cursor: pointer;
-    padding: 10px 20px 10px 20px;
-    transition: .5s;
 }
 
 .btn-produto:hover {
-    background: #0000CD;
+    background: #a5a5ff;
 }
