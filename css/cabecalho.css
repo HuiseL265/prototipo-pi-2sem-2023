@@ -27,13 +27,21 @@ body {
 }
 
 .search-box {
-    align-items: center;
-    background: #F1F1F1;
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
     border-radius: 40px;
-    display: flex;
+    display: flex !important;
     height: 50px;
     justify-content: space-between;
+    align-items: center !important;
     padding: 10px;
+}
+
+.search-box input{
+    border:0;
+}
+.search-box input:focus{
+    border:0 !important;
 }
 
 .search-txt {
@@ -52,11 +60,15 @@ body {
     justify-content: center;
     width: 30px;
     height: 30px;
+    padding:5px;
+    border-radius:50px;
+    transition: 0.2s;
 }
 
 .search-box:hover > .search-btn {
-    background: #099F19;
+    padding:2px;
 }
+
 
 .menu {
     display: flex;

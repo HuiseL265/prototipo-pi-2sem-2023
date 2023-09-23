@@ -7,12 +7,6 @@
     padding:0; 
 }
 
-.conteudo-sobre-texto {
-    padding-left: 40px;
-    padding-right: 40px;
-    max-width: 60%;
-}
-
 .conteudo-sobre-texto h1 {
     font-family: 'Open Sans';
     font-weight: bold;
@@ -30,15 +24,9 @@
     margin-top:15px;
 }
 
-.conteudo-sobre-imagem {
-    margin-left:30px;
-    max-width: 40%;
-   
-}
 
 .conteudo-sobre-imagem img {
-    height: 100%;
-    width:350px;
+    width:100%;
 }
 
 .btn-contato {
@@ -52,7 +40,7 @@
 }
 
 .btn-contato:hover {
-    background: #0000CD;
+    background: #8c8cff;
 }
 
 .div-btn {

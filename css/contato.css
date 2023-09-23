@@ -47,9 +47,8 @@ form p {
 
 }
 
-.juncao-input-nome-email{
-    display: flex;
-    flex:1 200px;
+.juncao-input-nome-email .input-single{
+    width:40% !important;
 }
 
 .input-single {
