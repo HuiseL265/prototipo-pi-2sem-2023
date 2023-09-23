@@ -48,13 +48,10 @@ body {
 }
 
 .search-btn {
-    border-radius: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 30px;
     height: 30px;
-    transition: .5s;
 }
 
 .search-box:hover > .search-btn {
@@ -72,13 +69,17 @@ body {
 
 .menu a {
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 4px;
     color: #000000;
     transition: .5s;
     padding: 5px 10px 5px 10px;
+    margin:10px;
 }
 
 .menu a:hover {
-    background: #703D12;
-    color: #FFFFFF;
+    border: 1;
+    border-radius: 5px;
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
+    cursor: pointer;
 }
