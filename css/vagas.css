@@ -5,49 +5,22 @@
 }
 
 .div-empresa {
-    margin-top: 40px;
-    background: #F1F1F1;
-    padding: 20px;
-    border-radius: 20px;
+    text-align: center;
 }
 
 .div-empresa-img img{
     width: 200px;
     height: 200px;
-    border-radius: 30px;
-}
-
-.div-empresa-img img:hover {
-    transition: 0.4s;
-	transform: scale(1.1);
-    border: solid 1px #f00c0c
-}
-
-.div-empresa-titulo h2 {
-    text-align: center;
-    font-family: 'Open Sans';
-}
-
-.div-empresa-descricao p {
-    text-align: center;
-    font-family: 'Open Sans';
-}
-
-.div-empresa-btn {
-    display: flex;
-    justify-content: center;
+    border-radius: 10px;
 }
 
 .btn-produto {
-    background: #836FFF;
-    border: none;
-    border-radius: 30px;
-    color: #FFFFFF;
+    border: 0.5;
+    border-radius: 5px;
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
     cursor: pointer;
-    padding: 10px 20px 10px 20px;
-    transition: .5s;
-}
-
-.btn-produto:hover {
-    background: #0000CD;
+    font-weight: bold;
+    transition: 0.3s;
+    color:black !important;
 }

@@ -32,20 +32,14 @@
 }
 
 .btn-saiba-mais {
-    background: #836FFF;
-    border: none;
-    border-radius: 30px;
-    color: #FFFFFF;
+    border: 0.5;
+    border-radius: 5px;
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
     cursor: pointer;
-    padding: 10px 20px 10px 20px;
-    position: absolute;
-    left: 38%;
-    top:70%;  
-    transition: .5s;
-}
-
-.btn-saiba-mais:hover {
-    background: #0000CD;
+    font-weight: bold;
+    transition: 0.3s;
+    color:black !important;
 }
 
 

@@ -30,17 +30,12 @@
 }
 
 .btn-contato {
-    margin-top:30px;
-    padding: 10px 40px;
+    padding: 5px 40px;
     border: 1;
     border-radius: 5px;
     background: rgb(204,254,216);
     background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
     cursor: pointer;
-}
-
-.btn-contato:hover {
-    background: #8c8cff;
 }
 
 .div-btn {
