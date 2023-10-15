@@ -6,16 +6,16 @@
       //  print_r('<br>');
       //  print_r('E-mail: ' . $_POST['email']);
       //  print_r('<br>');
-      //  print_r('Telefone: ' . $_POST['telefone']);
+      //  print_r('Mensagem: ' . $_POST['Mensagem']);
 
       include_once('config.php');
 
       $nome = $_POST['nome'];
       $email = $_POST['email'];
-      $telefone = $_POST['telefone'];
+      $mensagem = $_POST['mensagem'];
 
-      $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,telefone) 
-      VALUES ('$nome','$email','$telefone')");
+      $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,mensagem) 
+      VALUES ('$nome','$email','$mensagem')");
     }
 
 ?>
@@ -47,10 +47,14 @@
                         <label for="email-box">E-mail</label>
                     </div>
                 </div>
+                <div class="input-single">
+                        <input type="telefone" name="telefone" id="telefone-box" class="input" required>
+                        <label for="telefone-box">Telefone para contato</label>
+                    </div>
 
                 <div class="input-single" id="input-box-maior">
-                    <textarea type="text" name="telefone" id="telefone-box" class="input" required></textarea>
-                    <label for="telefone-box">Vem se conectar!</label>
+                    <textarea type="text" name="mensagem" id="mensagem-box" class="input" required></textarea>
+                    <label for="mensagem-box">Vem se conectar!</label>
                 </div>
 
                 <div class="btns">
