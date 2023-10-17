@@ -27,7 +27,7 @@ body {
 }
 
 .search-box {
-    background: rgb(204,254,216);
+    background: rgb(3, 3, 3);
     background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
     border-radius: 40px;
     display: flex !important;
