@@ -8,6 +8,14 @@
     text-align: center;
 }
 
+.div-empresa h2{
+    height: 40px !important;
+}
+
+.div-empresa p{
+    height:200px;
+}
+
 .div-empresa-img img{
     width: 200px;
     height: 200px;

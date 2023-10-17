@@ -6,6 +6,23 @@
 
 .div-empresa {
     text-align: center;
+    /*border: 1px solid black;
+    border-radius: 5px;*/
+    margin-bottom:20px;
+}
+
+.div-empresa h2{
+    height: 80px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-empresa .descricao{
+    height:200px;
+    overflow-y: auto;
 }
 
 .div-empresa-img img{
