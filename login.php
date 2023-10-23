@@ -14,10 +14,16 @@
     <form class="form-signin"> 
         <img class="logo mb-3" src="img/logo-removebg.png" alt="logomarca">
         <h1 class="h3 mb-3 text-center">Autenticação</h1>
-        <input type="text" placeholder="Nome" class="form-control mb-3" required>
-        <input type="password" placeholder="Senha" class="form-control mb-3" required>
-        <button class="btn btn-lg btn-primary btn-block mb-3" id="btn-enviar" type="submit">Enviar</button>
-        <a href="index.html" id="btn-voltar">Voltar</a>
+            <form action="testLogin.php" method="POST">
+                <input type="text" name="email" placeholder="Email" class="form-control mb-3" required>
+                <br><br>
+                <input type="password" name="senha" placeholder="Senha" class="form-control mb-3" required>
+                <br><br>
+                <input type="submit" name="submit" value="Enviar">
+                <br><br>
+                <a href="cadastro.php" id="btn-cadastrar">Cadastrar</a>
+                <a href="index.html" id="btn-voltar">Voltar</a>
+            </form>
     </form>
     
     <!--bootstrap-->
