@@ -25,26 +25,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conect Jovem | Login</title>
+    <title>Conect Jovem | Cadastro</title>
     <link rel="stylesheet" href="css/cadastro.css">
 </head>
 <body>
-<section class="section-formulario">
+<section class="form-signin m-auto">
         <div class="container">
             <form action="cadastro.php" method="POST">
                 <h1>CADASTRE-SE E FAÇA PARTE DESTA CONEXÃO</h1>
                 <P>"Junte-se a nós e faça parte da conexão que impulsiona o seu futuro profissional!"</P>
-                <div class="juncao-input-nome-email">
-                    <div class="input-single">
+                <div class="form-floating input-single">
                         <input type="text" name="nome" id="nome-box" class="input" required>
                         <label for="nome-box">Nome completo</label>
                     </div>
-    
-                    <div class="input-single">
+
+                <div class="form-floating input-single">
                         <input type="email" name="email" id="email-box" class="input" required>
                         <label for="email-box">E-mail</label>
                     </div>
-                </div>
+
                 <div class="input-single">
                         <input type="password" name="senha" id="senha-box" class="input" required>
                         <label for="senha-box">Senha</label>
@@ -55,7 +54,7 @@
                         <a href="index.html"><button type="button" class="btn-saiba-mais">Voltar</button></a>
                     </div>
                     <div id="btn-enviar">
-                        <input type="submit" name="submit" id="submit" value="Cadastrar">
+                        <input type="submit" name="submit" id="submit" value="Cadastrar-se">
                     </div>
                 </div>
             </form>

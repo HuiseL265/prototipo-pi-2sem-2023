@@ -41,3 +41,8 @@
     transition: 0.3s;
     color:black !important;
 }
+
+.btn-produto:hover{
+    background: rgb(204, 207, 254);
+    background: linear-gradient(90deg, rgb(183, 255, 199) 0%, rgb(122, 168, 255)100%);
+}
