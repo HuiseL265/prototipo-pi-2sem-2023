@@ -18,15 +18,14 @@
                 
                 <div class="form-floating">
                     <input type="text" name="email" placeholder="Email" class="form-control mb-3 campo-email" required>
-                    <label for="floatingInput" class="label-input">E-Mail</label>
+                    <label for="floatingInput" class="label-input">E-Mail / Usuário</label>
                 </div>
                 <div class="form-floating">
                     <input type="password" name="senha" placeholder="Senha" class="form-control mb-3 campo-senha" required>
                     <label for="floatingInput" class="label-input">Senha</label>
                 </div>
                 
-                <input class="btn w-100 py-2" type="submit" name="submit" value="Enviar" id="btn-enviar">
-                
+                <a href="index.html"><button class="btn w-100 py-2" name="submit" value="Enviar" id="btn-enviar">Enviar</button></a>
                 <a class="btn w-100 py-2" href="cadastro.php" id="btn-cadastrar">Cadastrar-se</a>
                 <a href="index.html" id="btn-voltar">Voltar</a>
             </form>

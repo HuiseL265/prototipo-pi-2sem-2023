@@ -38,6 +38,11 @@
                         <input type="text" name="nome" id="nome-box" class="input" required>
                         <label for="nome-box">Nome completo</label>
                     </div>
+                
+                <div class="form-floating input-single">
+                        <input type="text" name="usuario" id="usuario-box" class="input" required>
+                        <label for="usuario-box">Usuário</label>
+                    </div>
 
                 <div class="form-floating input-single">
                         <input type="email" name="email" id="email-box" class="input" required>
