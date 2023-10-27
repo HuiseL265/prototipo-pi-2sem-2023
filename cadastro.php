@@ -11,11 +11,12 @@
       include_once('config.php');
 
       $nome = $_POST['nome'];
+      $usuario = $_POST['usuario'];
       $email = $_POST['email'];
       $senha = $_POST['senha'];
 
-      $result = mysqli_query($conexao, "INSERT INTO cadastro(nome,email,senha)
-      VALUES ('$nome','$email','$senha')");
+      $result = mysqli_query($conexao, "INSERT INTO cadastro(nome,usuario,email,senha)
+      VALUES ('$nome','$usuario','$email','$senha')");
     }
 
 ?>
