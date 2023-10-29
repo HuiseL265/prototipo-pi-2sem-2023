@@ -1,27 +1,4 @@
-<?php
-
-    if(isset($_POST['submit']))
-    {
-      //  print_r('Nome: ' . $_POST['nome']);
-      //  print_r('<br>');
-      //  print_r('E-mail: ' . $_POST['email']);
-      // print_r('<br>');
-      // print_r('Senha: ' . $_POST['senha']);
-
-      include_once('config.php');
-
-      $nome = $_POST['nome'];
-      $usuario = $_POST['usuario'];
-      $email = $_POST['email'];
-      $senha = $_POST['senha'];
-
-      $result = mysqli_query($conexao, "INSERT INTO cadastro(nome,usuario,email,senha)
-      VALUES ('$nome','$usuario','$email','$senha')");
-    }
-
-?>
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -66,6 +43,42 @@
             </form>
         </div>
     </section>
+
+    <script>
+//        document.getElementById("btn-enviar").addEventListener("click", myFunction);  
+        function redirecionarPagina() {  
+            window.open('cadastro-success.html','_blank');
+            window.setTimeout(
+                    window.close()
+                ,2000)
+
+        }
+    </script>
+
+<?php
+
+if(isset($_POST['submit']))
+{
+  //  print_r('Nome: ' . $_POST['nome']);
+  //  print_r('<br>');
+  //  print_r('E-mail: ' . $_POST['email']);
+  // print_r('<br>');
+  // print_r('Senha: ' . $_POST['senha']);
+
+  include_once('config.php');
+
+  $nome = $_POST['nome'];
+  $usuario = $_POST['usuario'];
+  $email = $_POST['email'];
+  $senha = $_POST['senha'];
+
+  $result = mysqli_query($conexao, "INSERT INTO cadastro(nome,usuario,email,senha)
+  VALUES ('$nome','$usuario','$email','$senha')");
+
+  echo "<script>redirecionarPagina();</script>";
+}
+
+?>
 
 </body>
 </html>

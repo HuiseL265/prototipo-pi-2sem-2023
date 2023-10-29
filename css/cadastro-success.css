@@ -1,3 +1,4 @@
+/* CSS DO CONTEÚDO DA PÁGINA DE CADASTRO */
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0 4%;
 }
@@ -53,7 +54,7 @@ form p {
 
 .input-single {
     position: relative;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .input-single label {
@@ -104,8 +105,8 @@ form .input-single .input:valid ~ label {
 
 .btns #btn-enviar [type=submit] {
     padding: 10px 40px;
+    border: 0;
     border-radius: 5px;
-    border:0px;
     color:rgb(255, 255, 255);
     background: rgb(204,254,216);
     background: linear-gradient(90deg, rgb(92, 255, 130) 0%, rgb(66, 132, 255) 100%);
@@ -118,14 +119,14 @@ form .input-single .input:valid ~ label {
     background: linear-gradient(90deg, rgb(60, 255, 105) 0%, rgb(46, 119, 255) 100%);
 }
 
-#input-box-maior{
-    margin-top:30px;
-}
-
 #input-box-maior input{
     height:200px;
 }
 
 textarea{
     resize: vertical;
+}
+
+#verification-icon{
+    width:40px;
 }

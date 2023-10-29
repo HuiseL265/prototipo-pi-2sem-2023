@@ -1,25 +1,3 @@
-<?php
-
-    if(isset($_POST['submit']))
-    {
-    //    print_r('Nome: ' . $_POST['nome']);
-    //    print_r('<br>');
-    //    print_r('E-mail: ' . $_POST['email']);
-    //    print_r('<br>');
-    //    print_r('Mensagem: ' . $_POST['Mensagem']);
-
-      include_once('config.php');
-
-      $nome = $_POST['nome'];
-      $email = $_POST['email'];
-      $telefone = $_POST['telefone'];
-      $mensagem = $_POST['mensagem'];
-
-      $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,telefone,mensagem) 
-      VALUES ('$nome','$email','$telefone','$mensagem')");
-    }
-
-?>
 <!DOCTYPE html>
 
 <html lang="pt">
@@ -53,7 +31,7 @@
                         <label for="telefone-box">Telefone para contato</label>
                     </div>
 
-                <div class="input-single" id="input-box-maior">
+                <div class="input-single" id="input-box-maior" style=>
                     <textarea type="text" name="mensagem" id="mensagem-box" class="input" required></textarea>
                     <label for="mensagem-box">Vem se conectar!</label>
                 </div>
@@ -69,6 +47,42 @@
             </form>
         </div>
     </section>
+
+    <script>
+        //document.getElementById("btn-enviar").addEventListener("click", myFunction);  
+        function redirecionarPagina() {  
+            window.open('contato-success.html','_blank');
+            window.setTimeout(
+                    window.close()
+                ,1000)
+
+        }
+    </script>
+
+<?php
+
+if(isset($_POST['submit']))
+{
+//    print_r('Nome: ' . $_POST['nome']);
+//    print_r('<br>');
+//    print_r('E-mail: ' . $_POST['email']);
+//    print_r('<br>');
+//    print_r('Mensagem: ' . $_POST['Mensagem']);
+
+  include_once('config.php');
+
+  $nome = $_POST['nome'];
+  $email = $_POST['email'];
+  $telefone = $_POST['telefone'];
+  $mensagem = $_POST['mensagem'];
+
+  $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,telefone,mensagem) 
+  VALUES ('$nome','$email','$telefone','$mensagem')");
+
+echo "<script>redirecionarPagina();</script>";
+}
+
+?>
     
 </body>
 
