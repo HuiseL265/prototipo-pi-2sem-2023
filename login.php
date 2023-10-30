@@ -27,7 +27,7 @@
                 
                 <a href="index.html"><button class="btn w-100 py-2" name="submit" value="Enviar" id="btn-enviar">Enviar</button></a>
                 <a class="btn w-100 py-2" href="cadastro.php" id="btn-cadastrar">Cadastrar-se</a>
-                <a href="index.html" id="btn-voltar">Voltar</a>
+                <a href="index.php" id="btn-voltar">Voltar</a>
             </form>
     </main>
     
