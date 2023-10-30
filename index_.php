@@ -38,8 +38,8 @@
                         <a href="#" class="text-end search-btn"> <img src="img/lupa.svg"/></a>
                     </div>
                     <div class="col-lg-auto mb-lg-0 me-lg-3 mx-3">
-                        <a href="login.php" class="text-decoration-none">
-                            <button type="button" class="form-control text-bg-transparent" id="btn-login">Login</button>
+                        <a href="index.php" class="text-decoration-none">
+                            <button type="button" class="form-control text-bg-transparent" id="btn-login">Logout</button>
                         </a>
                     </div>
 

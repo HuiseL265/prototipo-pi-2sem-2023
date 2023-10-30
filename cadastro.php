@@ -16,11 +16,6 @@
                         <input type="text" name="nome" id="nome-box" class="input" required>
                         <label for="nome-box">Nome completo</label>
                     </div>
-                
-                <div class="form-floating input-single">
-                        <input type="text" name="usuario" id="usuario-box" class="input" required>
-                        <label for="usuario-box">Usuário</label>
-                    </div>
 
                 <div class="form-floating input-single">
                         <input type="email" name="email" id="email-box" class="input" required>
@@ -34,7 +29,7 @@
 
                 <div class="btns">
                     <div id="btn-voltar">
-                        <a href="index.html"><button type="button" class="btn-saiba-mais">Voltar</button></a>
+                        <a href="index.php"><button type="button" class="btn-saiba-mais">Voltar</button></a>
                     </div>
                     <div id="btn-enviar">
                         <input type="submit" name="submit" id="submit" value="Cadastrar-se">

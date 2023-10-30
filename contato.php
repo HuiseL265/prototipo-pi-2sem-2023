@@ -38,7 +38,7 @@
 
                 <div class="btns">
                     <div id="btn-voltar">
-                        <a href="index.php"><button type="button" class="btn-saiba-mais">Voltar</button></a>
+                        <a href="index_.php"><button type="button" class="btn-saiba-mais">Voltar</button></a>
                     </div>
                     <div id="btn-enviar">
                         <input type="submit" name="submit" id="submit" value="Conectando-se">

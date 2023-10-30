@@ -21,17 +21,17 @@
 
         if(mysqli_num_rows($result) < 1)
         {
-            header('Location: login.php');
+            header('Location: cadastro.php');
         }
         else
         {
-            header('Location: index.php');
+            header('Location: index_.php');
         }
    }
    else
    {
         //Não Acessa
-        header('Location: login.php');
+        header('Location: cadastro.php');
    }
 
 
