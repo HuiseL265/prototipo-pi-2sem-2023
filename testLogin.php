@@ -25,7 +25,7 @@
         }
         else
         {
-            header('Location: index_.php');
+            header('Location: login-success.html');
         }
    }
    else

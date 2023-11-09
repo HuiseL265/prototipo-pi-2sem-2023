@@ -25,7 +25,7 @@
                     <label for="floatingInput" class="label-input">Senha</label>
                 </div>
                 
-                <a href="index_.php"><button class="btn w-100 py-2" name="submit" value="Enviar" id="btn-enviar">Enviar</button></a>
+                <button class="btn w-100 py-2" name="submit" value="Enviar" id="btn-enviar">Enviar</button>
                 <a class="btn w-100 py-2" href="cadastro.php" id="btn-cadastrar">Cadastrar-se</a>
                 <a href="index.php" id="btn-voltar">Voltar</a>
             </form>
